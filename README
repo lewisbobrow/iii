@@ -1,0 +1,53 @@
+Help Received From: Comp40 TA's
+
+We correctly implemented my_usearray2 and my_usebit2, as well as the
+
+/*********************************************************/
+
+Homework 2: Interfaces, Implementations, and Images (iii)
+
+/*********************************************************/
+
+Authors: 
+
+Name: John Stewart
+UTLN: jstewa12
+
+Name: Lewis Bobrow
+UTLN: lbobro01
+
+/*********************************************************/
+
+Collaborators:
+
+COMP 40 TA's including but not limited to:
+- Byron
+- Alexander
+
+/*********************************************************/
+
+Aspects correctly implemented:
+
+uarray2.c - correctly implemented the necessary functions to create a 2D UArray,
+including a "new" function to create a UArray2_T object, a "free" function to 
+free memory from said object, and various functions to access/manipulate data 
+stored in and information describing said object
+
+sudoku.c - correctly implemented a sudoku puzzle-checker, which checks the
+correctness of a 9x9 "solved" sudoku puzzle, stored within a pgm file.
+
+bit2.c - correctly implemented the necessary functions to create a 2D bit map,
+including a new function, a free function, the map_row_major and map_col_major
+functions, functions used to get properties such as width and height, and
+functions used to set and get values in the bit map.
+
+unblackedges.c - correctly implemented a program which removes black pixels
+from the edge of pbm files, replacing them with white pixels.
+
+valgrind reports no memory leaks
+
+/*********************************************************/
+
+Hours spent completing assignment: 23
+
+/*********************************************************/
